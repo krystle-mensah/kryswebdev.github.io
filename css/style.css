@@ -1,0 +1,159 @@
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+body {
+	margin: 0;
+	background-color:  #333;
+	color: #ffa41a;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	color: #ffa41a;
+	text-transform: capitalize;
+	
+
+}
+
+#menu {
+	list-style-type: none;
+	text-align: right;
+	margin: 0px;
+	padding: 20px;
+	overflow: hidden;
+	background-color: #ffa41a;
+}
+
+#menu li {
+	display: inline;
+	padding: 20px;
+}
+
+#menu a {
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+a li:hover {
+	color: black;
+	background-color: rgb(247, 0, 255);
+}
+
+a li:active {
+	color: red;
+}
+
+/*TABLE*/
+
+caption {
+	text-transform: uppercase;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: center;
+	padding: 8px;
+}
+
+
+
+/* CONTACT */
+
+body.contact-page {
+	background-color: #fff;
+}
+
+#main {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid #000;
+}
+
+.my-form {
+width: 75%;
+float: left;
+}
+
+label {
+	color: #000;
+}
+
+.my-form label {
+	display: block;
+}
+
+/* .my-form {
+	padding: 20px;
+}
+
+.my-form input[type="text"], .my-form input[type="tel"],
+.my-form input[type="number"], .my-form input[type="email"], .my-form textarea {
+	padding: 5px;
+	width: 90%;
+}
+ */
+
+
+ /* input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+} */
+
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+
+/* ADDRES */
+
+aside#address {
+	width: 15%;
+	float: right;
+
+}
+
+.clear-fix {
+	clear: both;
+}
+
+
+
+/*FOOTER LAYOUT*/
+
+footer {
+	
+	bottom: 0;
+	width: 100%;
+	background-color: #ffa41a;
+	padding: 20px;
+	color: #000;
+}
+
+
+
